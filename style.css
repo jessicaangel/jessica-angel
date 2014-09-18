@@ -1,7 +1,7 @@
 body{
 	margin:0px;
 	padding:0px;
-	background-color: #0A0038;
+	background-color: #FAFAFA;
 }
 
 h1{
@@ -20,27 +20,38 @@ h2{
 #wrapper{
 	background-color: #FAFAFA;
 	width:1024px;
+	overflow: auto;
 	margin:30px auto;
-	overflow:auto;
 }
 
 #header{
-	margin:30px auto;
-	padding:30px auto;
 	text-align: center;
+	overflow:auto;
 }
 
 #nav{
 	clear:both;
+	border:1px solid black;
 	border-width: 1px 0px;
-	border-style: solid;
-	border-color: #0A0038;
-	margin:0px 15px;
+	overflow:auto;
+	margin:15px 0px 15px 0px;
+}
+
+.row{
+	clear:both;
+	overflow: auto;
+	padding:0px;
+	margin:30px 0px;
 }
 
 .column{
 	width:168.8px;
-	margin:0px 15px;
 	float:left;
+	margin:0px 15px;
+}
+
+img.square{
+	width:168.8px;
+	height:169.8px;
 }
 
