@@ -11,10 +11,25 @@ h1{
 }
 
 h2{
-	font-family: kepler-std-extended;
+	font-family: calluna;
 	font-weight: normal;
 	font-size: 15px;
 	text-align:center;
+}
+
+
+h3{
+	font-family: calluna;
+	font-weight: 600;
+	font-style: normal;
+	font-size:14px;
+	text-align: center;
+}
+
+p{
+	font-family: calluna;
+	font-weight:normal;
+	font-size:12px;
 }
 
 #wrapper{
