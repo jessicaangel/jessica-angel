@@ -13,7 +13,7 @@ h1{
 h2{
 	font-family: calluna;
 	font-weight: normal;
-	font-size: 15px;
+	font-size: 17px;
 	text-align:center;
 }
 
@@ -30,6 +30,25 @@ p{
 	font-family: calluna;
 	font-weight:normal;
 	font-size:12px;
+}
+
+a:link{
+	text-decoration: none;
+	color:black;
+}
+
+a:hover{
+	color:#0A0038;
+	font-weight: bold;
+}
+
+a:active{
+	font-weight: bold;
+	color:#FFF190;
+}
+
+a:visited{
+	color:black;
 }
 
 #wrapper{
